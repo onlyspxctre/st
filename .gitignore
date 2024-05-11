@@ -1,0 +1,5 @@
+*.orig
+*.o
+.cache
+.ccls-cache
+st
