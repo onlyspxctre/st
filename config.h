@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "MartianMono NF:pixelsize=19:antialias=true:autohint=false";
+static char *font = "CommitMono Nerd Font Mono:pixelsize=20:antialias=true:autohint=false";
 static int borderpx = 2;
 
 /* Spare fonts */
