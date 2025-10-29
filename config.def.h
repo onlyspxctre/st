@@ -5,7 +5,12 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *fonts[] = {
+  "Liberation Mono:pixelsize=12:antialias=true:autohint=true",
+  "tewi:pixelsize=12:antialias=true:autohint=true"
+};
+static int fonts_current = 0;
+
 static int borderpx = 2;
 
 /*
